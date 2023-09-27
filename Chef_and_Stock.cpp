@@ -25,8 +25,6 @@ int main()
         ll n, i;
         cin >> n;
         ll a[n+5];
-        ll minn = 1e18;
-        ll minn_ind;
 
         for(i=0; i<n; i++){
             cin >> a[i];
