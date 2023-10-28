@@ -30,14 +30,11 @@ int main()
         }
         sort(a, a+n, greater<ll>());
 
-        bool f = false;
-
         for(i=0; i<n; i++){
             sum += a[i];
 
             if(sum >= h){
                 ans = a[i];
-                f = true;
                 break;
             }
         }
