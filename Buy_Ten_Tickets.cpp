@@ -26,6 +26,5 @@ int main()
 
         cout << (y*2) + x << endl;
      }
-
     return 0;
 }
