@@ -30,7 +30,6 @@ int main()
         for(i=1; i<=n; i++){
             cin >> a[i];
         }
-        
         sort(a+1, a+n+1, greater<int>());
 
         cout << a[x]-1 << nl;
