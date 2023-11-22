@@ -41,7 +41,7 @@ int main()
                 maxx = max(maxx, cnt);
             }
             else{
-                cnt--;
+                cnt -= 1;
             }
         }
         cout << maxx << nl;
