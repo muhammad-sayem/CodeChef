@@ -49,13 +49,6 @@ int main()
                 cout << "NO" << nl;
             }
         }
-
-        // if(zero > 0){
-        //     cout << "NO" << nl;
-        // }
-        // else{
-        //     cout << "YES" << nl;
-        // }
     }
 
     return 0;
